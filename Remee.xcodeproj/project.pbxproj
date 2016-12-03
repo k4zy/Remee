@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16D15411DF2F14F00D76D57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15401DF2F14F00D76D57 /* AppDelegate.swift */; };
+		F16D15431DF2F14F00D76D57 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15421DF2F14F00D76D57 /* FirstViewController.swift */; };
+		F16D15451DF2F14F00D76D57 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15441DF2F14F00D76D57 /* SecondViewController.swift */; };
+		F16D15481DF2F14F00D76D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D15461DF2F14F00D76D57 /* Main.storyboard */; };
+		F16D154A1DF2F14F00D76D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16D15491DF2F14F00D76D57 /* Assets.xcassets */; };
+		F16D154D1DF2F14F00D76D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D154B1DF2F14F00D76D57 /* LaunchScreen.storyboard */; };
+		F16D15581DF2F14F00D76D57 /* RemeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15571DF2F14F00D76D57 /* RemeeTests.swift */; };
+		F16D15631DF2F14F00D76D57 /* RemeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15621DF2F14F00D76D57 /* RemeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16D15541DF2F14F00D76D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16D15351DF2F14F00D76D57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16D153C1DF2F14F00D76D57;
+			remoteInfo = Remee;
+		};
+		F16D155F1DF2F14F00D76D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16D15351DF2F14F00D76D57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16D153C1DF2F14F00D76D57;
+			remoteInfo = Remee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16D153D1DF2F14F00D76D57 /* Remee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D15401DF2F14F00D76D57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16D15421DF2F14F00D76D57 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F16D15441DF2F14F00D76D57 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F16D15471DF2F14F00D76D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16D15491DF2F14F00D76D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16D154C1DF2F14F00D76D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16D154E1DF2F14F00D76D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16D15531DF2F14F00D76D57 /* RemeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D15571DF2F14F00D76D57 /* RemeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemeeTests.swift; sourceTree = "<group>"; };
+		F16D15591DF2F14F00D76D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16D155E1DF2F14F00D76D57 /* RemeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D15621DF2F14F00D76D57 /* RemeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemeeUITests.swift; sourceTree = "<group>"; };
+		F16D15641DF2F14F00D76D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16D153A1DF2F14F00D76D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D15501DF2F14F00D76D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D155B1DF2F14F00D76D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16D15341DF2F14F00D76D57 = {
+			isa = PBXGroup;
+			children = (
+				F16D153F1DF2F14F00D76D57 /* Remee */,
+				F16D15561DF2F14F00D76D57 /* RemeeTests */,
+				F16D15611DF2F14F00D76D57 /* RemeeUITests */,
+				F16D153E1DF2F14F00D76D57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16D153E1DF2F14F00D76D57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16D153D1DF2F14F00D76D57 /* Remee.app */,
+				F16D15531DF2F14F00D76D57 /* RemeeTests.xctest */,
+				F16D155E1DF2F14F00D76D57 /* RemeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16D153F1DF2F14F00D76D57 /* Remee */ = {
+			isa = PBXGroup;
+			children = (
+				F16D15401DF2F14F00D76D57 /* AppDelegate.swift */,
+				F16D15421DF2F14F00D76D57 /* FirstViewController.swift */,
+				F16D15441DF2F14F00D76D57 /* SecondViewController.swift */,
+				F16D15461DF2F14F00D76D57 /* Main.storyboard */,
+				F16D15491DF2F14F00D76D57 /* Assets.xcassets */,
+				F16D154B1DF2F14F00D76D57 /* LaunchScreen.storyboard */,
+				F16D154E1DF2F14F00D76D57 /* Info.plist */,
+			);
+			path = Remee;
+			sourceTree = "<group>";
+		};
+		F16D15561DF2F14F00D76D57 /* RemeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16D15571DF2F14F00D76D57 /* RemeeTests.swift */,
+				F16D15591DF2F14F00D76D57 /* Info.plist */,
+			);
+			path = RemeeTests;
+			sourceTree = "<group>";
+		};
+		F16D15611DF2F14F00D76D57 /* RemeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16D15621DF2F14F00D76D57 /* RemeeUITests.swift */,
+				F16D15641DF2F14F00D76D57 /* Info.plist */,
+			);
+			path = RemeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16D153C1DF2F14F00D76D57 /* Remee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D15671DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "Remee" */;
+			buildPhases = (
+				F16D15391DF2F14F00D76D57 /* Sources */,
+				F16D153A1DF2F14F00D76D57 /* Frameworks */,
+				F16D153B1DF2F14F00D76D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remee;
+			productName = Remee;
+			productReference = F16D153D1DF2F14F00D76D57 /* Remee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16D15521DF2F14F00D76D57 /* RemeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D156A1DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "RemeeTests" */;
+			buildPhases = (
+				F16D154F1DF2F14F00D76D57 /* Sources */,
+				F16D15501DF2F14F00D76D57 /* Frameworks */,
+				F16D15511DF2F14F00D76D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16D15551DF2F14F00D76D57 /* PBXTargetDependency */,
+			);
+			name = RemeeTests;
+			productName = RemeeTests;
+			productReference = F16D15531DF2F14F00D76D57 /* RemeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16D155D1DF2F14F00D76D57 /* RemeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D156D1DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "RemeeUITests" */;
+			buildPhases = (
+				F16D155A1DF2F14F00D76D57 /* Sources */,
+				F16D155B1DF2F14F00D76D57 /* Frameworks */,
+				F16D155C1DF2F14F00D76D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16D15601DF2F14F00D76D57 /* PBXTargetDependency */,
+			);
+			name = RemeeUITests;
+			productName = RemeeUITests;
+			productReference = F16D155E1DF2F14F00D76D57 /* RemeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16D15351DF2F14F00D76D57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kazy.github.com;
+				TargetAttributes = {
+					F16D153C1DF2F14F00D76D57 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M8Y92SYD5A;
+						ProvisioningStyle = Automatic;
+					};
+					F16D15521DF2F14F00D76D57 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M8Y92SYD5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F16D153C1DF2F14F00D76D57;
+					};
+					F16D155D1DF2F14F00D76D57 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M8Y92SYD5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F16D153C1DF2F14F00D76D57;
+					};
+				};
+			};
+			buildConfigurationList = F16D15381DF2F14F00D76D57 /* Build configuration list for PBXProject "Remee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16D15341DF2F14F00D76D57;
+			productRefGroup = F16D153E1DF2F14F00D76D57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16D153C1DF2F14F00D76D57 /* Remee */,
+				F16D15521DF2F14F00D76D57 /* RemeeTests */,
+				F16D155D1DF2F14F00D76D57 /* RemeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16D153B1DF2F14F00D76D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D154D1DF2F14F00D76D57 /* LaunchScreen.storyboard in Resources */,
+				F16D154A1DF2F14F00D76D57 /* Assets.xcassets in Resources */,
+				F16D15481DF2F14F00D76D57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D15511DF2F14F00D76D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D155C1DF2F14F00D76D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16D15391DF2F14F00D76D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D15451DF2F14F00D76D57 /* SecondViewController.swift in Sources */,
+				F16D15411DF2F14F00D76D57 /* AppDelegate.swift in Sources */,
+				F16D15431DF2F14F00D76D57 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D154F1DF2F14F00D76D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D15581DF2F14F00D76D57 /* RemeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D155A1DF2F14F00D76D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D15631DF2F14F00D76D57 /* RemeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16D15551DF2F14F00D76D57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16D153C1DF2F14F00D76D57 /* Remee */;
+			targetProxy = F16D15541DF2F14F00D76D57 /* PBXContainerItemProxy */;
+		};
+		F16D15601DF2F14F00D76D57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16D153C1DF2F14F00D76D57 /* Remee */;
+			targetProxy = F16D155F1DF2F14F00D76D57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16D15461DF2F14F00D76D57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16D15471DF2F14F00D76D57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16D154B1DF2F14F00D76D57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16D154C1DF2F14F00D76D57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16D15651DF2F14F00D76D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16D15661DF2F14F00D76D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16D15681DF2F14F00D76D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = Remee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.Remee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F16D15691DF2F14F00D76D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = Remee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.Remee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F16D156B1DF2F14F00D76D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = RemeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.RemeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remee.app/Remee";
+			};
+			name = Debug;
+		};
+		F16D156C1DF2F14F00D76D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = RemeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.RemeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remee.app/Remee";
+			};
+			name = Release;
+		};
+		F16D156E1DF2F14F00D76D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = RemeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.RemeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remee;
+			};
+			name = Debug;
+		};
+		F16D156F1DF2F14F00D76D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				INFOPLIST_FILE = RemeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.RemeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16D15381DF2F14F00D76D57 /* Build configuration list for PBXProject "Remee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D15651DF2F14F00D76D57 /* Debug */,
+				F16D15661DF2F14F00D76D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16D15671DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "Remee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D15681DF2F14F00D76D57 /* Debug */,
+				F16D15691DF2F14F00D76D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F16D156A1DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "RemeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D156B1DF2F14F00D76D57 /* Debug */,
+				F16D156C1DF2F14F00D76D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F16D156D1DF2F14F00D76D57 /* Build configuration list for PBXNativeTarget "RemeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D156E1DF2F14F00D76D57 /* Debug */,
+				F16D156F1DF2F14F00D76D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16D15351DF2F14F00D76D57 /* Project object */;
+}
