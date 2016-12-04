@@ -2,7 +2,7 @@ import UIKit
 import APIKit
 
 class EntryListViewController: UITableViewController {
-    var items : [Entry] = [] {
+    var items: [Entry] = [] {
         didSet {
             tableView.reloadData()
         }
