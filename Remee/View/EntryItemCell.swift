@@ -1,4 +1,5 @@
 import UIKit
+import Kingfisher
 
 class EntryItemCell: UITableViewCell {
 
@@ -16,6 +17,11 @@ class EntryItemCell: UITableViewCell {
     func update(withItem entry: Entry) {
         titleLabel.text = entry.title
         countLabel.text = "count: \(entry.count)"
+        if entry.image != nil {
+            thumbnailImageView.kf.setImage(with: entry.image)
+        } else if entry.imageL?.url != nil {
+            thumbnailImageView.kf.setImage(with: entry.imageL?.url)
+        }
     }
-
 }
+

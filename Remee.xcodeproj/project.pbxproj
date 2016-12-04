@@ -22,6 +22,7 @@
 		F16D15841DF30B2900D76D57 /* HotEntryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15831DF30B2900D76D57 /* HotEntryRequest.swift */; };
 		F18060CB1DF39B8800D081E6 /* EntryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18060CA1DF39B8800D081E6 /* EntryListViewController.swift */; };
 		F18060CE1DF3A11F00D081E6 /* EntryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18060CD1DF3A11F00D081E6 /* EntryItemCell.swift */; };
+		F1A3DA971DF3B0EA00A824D0 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A3DA961DF3B0EA00A824D0 /* Kingfisher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F16D15831DF30B2900D76D57 /* HotEntryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotEntryRequest.swift; sourceTree = "<group>"; };
 		F18060CA1DF39B8800D081E6 /* EntryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListViewController.swift; sourceTree = "<group>"; };
 		F18060CD1DF3A11F00D081E6 /* EntryItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryItemCell.swift; sourceTree = "<group>"; };
+		F1A3DA961DF3B0EA00A824D0 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A3DA971DF3B0EA00A824D0 /* Kingfisher.framework in Frameworks */,
 				F16D15761DF2F69600D76D57 /* Result.framework in Frameworks */,
 				F16D15731DF2F67700D76D57 /* APIKit.framework in Frameworks */,
 				F16D15741DF2F67700D76D57 /* Himotoki.framework in Frameworks */,
@@ -151,6 +154,7 @@
 		F16D15701DF2F67700D76D57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1A3DA961DF3B0EA00A824D0 /* Kingfisher.framework */,
 				F16D15751DF2F69600D76D57 /* Result.framework */,
 				F16D15711DF2F67700D76D57 /* APIKit.framework */,
 				F16D15721DF2F67700D76D57 /* Himotoki.framework */,
@@ -335,6 +339,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputPaths = (
 			);
