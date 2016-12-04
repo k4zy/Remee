@@ -17,10 +17,10 @@ extension ImageInfo: Decodable {
 
     static func decode(_ e: Extractor) throws -> ImageInfo {
         return try ImageInfo (
-            width: e <| "width",
-            height: e <| "height",
-            url: URLTransformer.apply(e <| "url")
+                              width: e <| "width",
+                              height: e <| "height",
+                              url: URLTransformer.apply(e <| "url")
         )
     }
-    
+
 }

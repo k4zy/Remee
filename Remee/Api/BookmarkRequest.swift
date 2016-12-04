@@ -1,6 +1,6 @@
 import APIKit
 
-protocol BookmarkRequest: Request {}
+protocol BookmarkRequest: Request { }
 
 extension BookmarkRequest {
     var baseURL: URL {
