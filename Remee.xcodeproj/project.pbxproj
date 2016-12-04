@@ -15,6 +15,13 @@
 		F16D154D1DF2F14F00D76D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D154B1DF2F14F00D76D57 /* LaunchScreen.storyboard */; };
 		F16D15581DF2F14F00D76D57 /* RemeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15571DF2F14F00D76D57 /* RemeeTests.swift */; };
 		F16D15631DF2F14F00D76D57 /* RemeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15621DF2F14F00D76D57 /* RemeeUITests.swift */; };
+		F16D15731DF2F67700D76D57 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D15711DF2F67700D76D57 /* APIKit.framework */; };
+		F16D15741DF2F67700D76D57 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D15721DF2F67700D76D57 /* Himotoki.framework */; };
+		F16D15761DF2F69600D76D57 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D15751DF2F69600D76D57 /* Result.framework */; };
+		F16D157D1DF3021D00D76D57 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D157C1DF3021D00D76D57 /* Entry.swift */; };
+		F16D157F1DF3029700D76D57 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D157E1DF3029700D76D57 /* ImageInfo.swift */; };
+		F16D15821DF3064300D76D57 /* BookmarkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15811DF3064300D76D57 /* BookmarkRequest.swift */; };
+		F16D15841DF30B2900D76D57 /* HotEntryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D15831DF30B2900D76D57 /* HotEntryRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		F16D155E1DF2F14F00D76D57 /* RemeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16D15621DF2F14F00D76D57 /* RemeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemeeUITests.swift; sourceTree = "<group>"; };
 		F16D15641DF2F14F00D76D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16D15711DF2F67700D76D57 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		F16D15721DF2F67700D76D57 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		F16D15751DF2F69600D76D57 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F16D157C1DF3021D00D76D57 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		F16D157E1DF3029700D76D57 /* ImageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		F16D15811DF3064300D76D57 /* BookmarkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkRequest.swift; sourceTree = "<group>"; };
+		F16D15831DF30B2900D76D57 /* HotEntryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotEntryRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16D15761DF2F69600D76D57 /* Result.framework in Frameworks */,
+				F16D15731DF2F67700D76D57 /* APIKit.framework in Frameworks */,
+				F16D15741DF2F67700D76D57 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,7 @@
 				F16D15561DF2F14F00D76D57 /* RemeeTests */,
 				F16D15611DF2F14F00D76D57 /* RemeeUITests */,
 				F16D153E1DF2F14F00D76D57 /* Products */,
+				F16D15701DF2F67700D76D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,8 @@
 		F16D153F1DF2F14F00D76D57 /* Remee */ = {
 			isa = PBXGroup;
 			children = (
+				F16D15801DF305D300D76D57 /* Api */,
+				F16D157B1DF3016100D76D57 /* Model */,
 				F16D15401DF2F14F00D76D57 /* AppDelegate.swift */,
 				F16D15421DF2F14F00D76D57 /* FirstViewController.swift */,
 				F16D15441DF2F14F00D76D57 /* SecondViewController.swift */,
@@ -128,6 +148,34 @@
 			path = RemeeUITests;
 			sourceTree = "<group>";
 		};
+		F16D15701DF2F67700D76D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16D15751DF2F69600D76D57 /* Result.framework */,
+				F16D15711DF2F67700D76D57 /* APIKit.framework */,
+				F16D15721DF2F67700D76D57 /* Himotoki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16D157B1DF3016100D76D57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F16D157C1DF3021D00D76D57 /* Entry.swift */,
+				F16D157E1DF3029700D76D57 /* ImageInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F16D15801DF305D300D76D57 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F16D15811DF3064300D76D57 /* BookmarkRequest.swift */,
+				F16D15831DF30B2900D76D57 /* HotEntryRequest.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +186,7 @@
 				F16D15391DF2F14F00D76D57 /* Sources */,
 				F16D153A1DF2F14F00D76D57 /* Frameworks */,
 				F16D153B1DF2F14F00D76D57 /* Resources */,
+				F16D15771DF2F88500D76D57 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -260,13 +309,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F16D15771DF2F88500D76D57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$(brew --prefix)/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F16D15391DF2F14F00D76D57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16D157D1DF3021D00D76D57 /* Entry.swift in Sources */,
+				F16D157F1DF3029700D76D57 /* ImageInfo.swift in Sources */,
 				F16D15451DF2F14F00D76D57 /* SecondViewController.swift in Sources */,
+				F16D15821DF3064300D76D57 /* BookmarkRequest.swift in Sources */,
 				F16D15411DF2F14F00D76D57 /* AppDelegate.swift in Sources */,
+				F16D15841DF30B2900D76D57 /* HotEntryRequest.swift in Sources */,
 				F16D15431DF2F14F00D76D57 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +492,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Remee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.Remee;
@@ -433,6 +509,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8Y92SYD5A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Remee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.kazy.Remee;
